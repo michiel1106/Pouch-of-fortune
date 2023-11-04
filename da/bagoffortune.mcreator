@@ -1,0 +1,83 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pouchoffortune",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pouchoffortune",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bagoffortune/item/PouchoffortuneItem.java",
+          "src/main/resources/assets/bagoffortune/models/item/pouchoffortune.json"
+        ]
+      }
+    },
+    {
+      "name": "PouchoffortuneRightclicked",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pouchoffortune_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bagoffortune/procedures/PouchoffortuneRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PouchOfFortuneRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pouch_of_fortune_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bagoffortune/recipes/pouch_of_fortune_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.bagoffortune.pouchoffortune": "Pouch of fortune"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bagoffortune",
+    "modName": "BagOfFortune",
+    "version": "1.0.0",
+    "author": "michi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.bagoffortune",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
